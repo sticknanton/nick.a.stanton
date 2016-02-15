@@ -1,0 +1,188 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  background-color: #677077;
+  font-family: 'Cabin', sans-serif;
+}
+h1, h3, h4, h5, h6{
+  font-family: 'Londrina Solid', cursive;
+}
+h3{
+  display: inline-block;
+}
+a{
+  text-decoration: none;
+  color: #ffffff;
+}
+a:hover{
+  color: #f2b632;
+}
+ul{
+  list-style-type: none;
+}
+header{
+  width: 100%;
+  background-color: #252839;
+  font-size: 1.6em;
+  text-align: right;
+  overflow: auto;
+  padding: 2%;
+  color: #ffffff;
+}
+
+
+#logo h1{
+  float: left;
+  text-shadow: 2px 2px 6px #f2b632;
+}
+
+ul#navigation li{
+  display: inline;
+  text-align: right;
+}
+
+.profile{
+  margin: auto;
+  width: 300px;
+  margin-top: 5%;
+  margin-bottom: 5%;
+  text-align: center;
+  color: #ffffff;
+  font-size: 1.5em;
+}
+
+
+.profile img{
+  height: 325px;
+  width: 325px;
+  border-radius: 30px;
+}
+
+
+.projects{
+  width: 100%;
+  text-align: center;
+  position: absolute;
+  top: 70%;
+  height: 35%;
+  background-color: #f6f1ed;
+
+}
+.project{
+  width: 100%;
+  min-height: 100px;
+  border-top: 1px solid #f2b632;
+  position: relative;
+  margin: 0;
+  float: left;
+  padding: 1%;
+  color: white;
+  font-size: 20px;
+  background-color: #252839;
+}
+#last-project{
+  border-bottom: 1px solid black;
+}
+a#graig{
+  text-decoration: underline;
+}
+
+.projectName, #expand{
+  display: block;
+  position: relative;
+  margin: 0;
+  float: left;
+  font-size: 30px;
+}
+.project img{
+  height: 340px;
+  width: 100%;
+}
+.projectName{
+  width: 78%;
+  margin-top: 2%;
+  margin-left: 2%;
+}
+#expand{
+  width: 20%;
+  text-align: right;
+  right: 2%;
+  font-size: 56px;
+  margin: .5% 0%;
+}
+#expand:hover{
+  cursor: pointer;
+}
+.project:hover{
+  background-color: #252850;
+  color: white;
+
+}
+i.fa-plus-square-o, i.fa-minus-square-o{
+  color: #f2b632;
+
+}
+.details{
+  display: none;
+  width: 100%;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+.description{
+  width: 40%;
+  margin-left: 2%;
+  display: block;
+  position: relative;
+  padding: 0;
+  float: left;
+}
+.pics{
+  width: 40%;
+  margin: 5%;
+  padding-bottom: 5%;
+  display: block;
+  position: relative;
+  float: left;
+}
+
+.my-slider {
+    position: relative;
+    overflow: auto;
+    width: 100%;
+    text-align: center;
+}
+.unslider-arrow {
+  font-family: Expressway;
+  font-size: 35px;
+  text-decoration: none;
+  color: white;
+  /*background: rgba(255,255,255,0.4);*/
+  background: transparent;
+}
+.space{
+  margin: 5px;
+}
+div.my-slider{
+  border: 5px solid #f6f1ed;
+}
+
+img.project-image{
+  display: block;
+  height: 280px;
+}
+
+.next {
+  position: absolute;
+  top: 35%;
+  right: 0;
+}
+
+.prev {
+  position: absolute;
+  top: 35%;
+  left: 0; /* change to left:0; if u wanna have arrow on left side */
+}
