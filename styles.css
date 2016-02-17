@@ -43,7 +43,9 @@ ul#navigation li{
   display: inline;
   text-align: right;
 }
-
+.email{
+  font-family: cursive;
+}
 .profile{
   margin: auto;
   width: 300px;
