@@ -144,8 +144,8 @@ i.fa-plus-square-o, i.fa-minus-square-o{
 }
 .pics{
   width: 40%;
+  margin-top: 25%;
   margin: 5%;
-  padding-bottom: 5%;
   display: block;
   position: relative;
   float: left;
@@ -188,6 +188,9 @@ img.project-image{
   position: absolute;
   top: 35%;
   left: 0; /* change to left:0; if u wanna have arrow on left side */
+}
+.outhouse .details .description p {
+  font-size: 18px;
 }
 @media(max-width: 1000px)
 {
