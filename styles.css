@@ -157,6 +157,7 @@ i.fa-plus-square-o, i.fa-minus-square-o{
     width: 100%;
     text-align: center;
 }
+
 .unslider-arrow {
   font-family: Expressway;
   font-size: 35px;
@@ -187,4 +188,23 @@ img.project-image{
   position: absolute;
   top: 35%;
   left: 0; /* change to left:0; if u wanna have arrow on left side */
+}
+@media(max-width: 1000px)
+{
+  .description{
+    width: 90%;
+    margin: 5%;
+  }
+  .pics{
+    width: 80%;
+    margin-left: 10%;
+  }
+  img.project-image{
+    height: 400px;
+  }
+}
+@media(max-width: 700px){
+  img.project-image{
+    height: 280px;
+  }
 }
