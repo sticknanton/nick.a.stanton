@@ -211,3 +211,13 @@ img.project-image{
     height: 280px;
   }
 }
+@media(max-width: 478px){
+  header{
+    font-size: 1.2em;
+  }
+}
+@media(max-width: 380px){
+  header{
+    font-size: 1em;
+  }
+}
