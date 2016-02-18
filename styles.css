@@ -43,7 +43,13 @@ ul#navigation li{
   display: inline;
   text-align: right;
 }
+<<<<<<< HEAD
 
+=======
+.email{
+  font-family: cursive;
+}
+>>>>>>> master
 .profile{
   margin: auto;
   width: 300px;
@@ -142,8 +148,13 @@ i.fa-plus-square-o, i.fa-minus-square-o{
 }
 .pics{
   width: 40%;
+<<<<<<< HEAD
   margin: 5%;
   padding-bottom: 5%;
+=======
+  margin-top: 25%;
+  margin: 5%;
+>>>>>>> master
   display: block;
   position: relative;
   float: left;
@@ -155,6 +166,7 @@ i.fa-plus-square-o, i.fa-minus-square-o{
     width: 100%;
     text-align: center;
 }
+
 .unslider-arrow {
   font-family: Expressway;
   font-size: 35px;
@@ -185,4 +197,37 @@ img.project-image{
   position: absolute;
   top: 35%;
   left: 0; /* change to left:0; if u wanna have arrow on left side */
+}
+
+.outhouse .details .description p {
+  font-size: 18px;
+}
+@media(max-width: 1000px)
+{
+  .description{
+    width: 90%;
+    margin: 5%;
+  }
+  .pics{
+    width: 80%;
+    margin-left: 10%;
+  }
+  img.project-image{
+    height: 400px;
+  }
+}
+@media(max-width: 700px){
+  img.project-image{
+    height: 280px;
+  }
+}
+@media(max-width: 478px){
+  header{
+    font-size: 1.2em;
+  }
+}
+@media(max-width: 380px){
+  header{
+    font-size: 1em;
+  }
 }
