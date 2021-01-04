@@ -20,9 +20,10 @@ a{
 a:hover{
   color: #f2b632;
 }
-a.unslider-arrow:hover{
+a.unslider-arrow.next:hover, a.unslider-arrow.prev:hover{
   color: red;
 }
+
 ul{
   list-style-type: none;
 }
