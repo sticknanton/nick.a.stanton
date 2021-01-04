@@ -20,6 +20,9 @@ a{
 a:hover{
   color: #f2b632;
 }
+a.unslider-arrow:hover{
+  color: red;
+}
 ul{
   list-style-type: none;
 }
